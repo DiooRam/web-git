@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <title>Kategori</title>
+    <style>
+
+.Body2{
+            display: grid;
+            place-items: center;
+            height: 50vh; /* Membuat body mengisi seluruh tinggi viewport */
+    
+            margin: 0; /* Menghilangkan margin default body */
+        }
+        
+    .rectangle {
+            background-color: #B9DDC3;
+            color: black;
+            justify-content: center;
+            width: 1250px; /* lebar */
+            height: 155px; /* tinggi */  
+            border-radius: 10px;
+            box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.2); 
+            margin-bottom: 40px;
+             
+    }
+
+    .rectangle-2{
+            background-color: #D6D6D6;
+            color: black;
+            justify-content: center;
+            width: 1250px; /* lebar */
+            height: 155px; /* tinggi */  
+            border-radius: 10px;
+            box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.2); 
+            margin-bottom: 40px;
+             
+    }
+
+    #gambar-posisi {
+    height: 136x;
+    width: 136px;
+    position: relative;
+    right: 188px;
+    bottom: 37px;
+  }
+
+  #gambar-posisi-2{
+    height: 136x;
+    width: 136px;
+    position: relative;
+    right: 194px;
+    bottom: 28px;
+
+  }
+
+  #gambar-posisi-3{
+    height: 170x;
+    width: 165px;
+    position: relative;
+    right: 200px;
+    bottom: 24px;
+  }
+
+  #gambar-posisi-4{
+    height: 166x;
+    width: 166px;
+    position: relative;
+    right: 210px;
+    bottom: 23px;
+  }
+
+
+    .header-tebal {
+            font-weight: bold;
+            font-size: 24px;
+            position: relative;
+            left: 230px;
+            top: 50px;
+        }
+
+        .header-tebal-2{
+          font-weight: bold;
+            font-size: 24px;
+            position: relative;
+            left: 230px;
+            top: 50px;
+        }
+
+        .header-tebal-3{
+          font-weight: bold;
+            font-size: 24px;
+            position: relative;
+            left: 230px;
+            top: 46px;
+        }
+
+        .header-tebal-4{
+          font-weight: bold;
+            font-size: 24px;
+            position: relative;
+            left: 230px;
+            top: 48px;
+        } 
+
+        .paragraf-tipis {
+            font-size: 20px;
+            position: relative;
+            left: 230px;
+            bottom: 20px;
+        }
+  .paragraf-tipis-2{
+    font-size: 20px;
+            position: relative;
+            left: 230px;
+            bottom: 10px;
+        }
+        .paragraf-tipis-3{
+          font-size: 20px;
+            position: relative;
+            left: 230px;
+            bottom: 10px;
+        }
+  .paragraf-tipis-4{
+    font-size: 20px;
+            position: relative;
+            left: 230px;
+            bottom: 8px;
+  }
+  
+
+    
+    .garis {
+            width: 82%;
+            height: 5px;
+            position: relative;
+            justify-content: center;
+            background-color: #919191;
+            align-items: center;
+            margin: 0 auto;
+        }
+
+        
+        .navbar{
+      background-color: #1F6231;
+      margin-bottom: 60px;
+    }
+    .navbar-nav li:hover {
+      background-color: #1F6231; /* Change this to your desired hover color */
+    }
+    .nav-link{
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+      margin-right: 50px;
+    }
+
+    input[type="text"] {
+  background-color: whitesmoke;
+  width: 400px; 
+  padding: 6px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+
+.garansi{
+      background-color: #1E8C45;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      position: relative;
+      margin-top: -17%;
+    }
+
+    </style>
+    </head>
+    <body>
+            
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <!-- Logo di kiri -->
+          <a class="navbar-brand" href="#">
+            <img style="margin-left: 20px;" src="c:\xampp\htdocs\Web Design\uas\img\Cuplikan_layar_2023-10-26_203221-removebg-preview 2.png" height="45">
+          </a>
+      
+          <form action="/search" method="GET">
+            <input type="text" placeholder="search" name="search">
+          </form>
+
+          <!-- Menu di tengah -->
+          <div class="mx-auto">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Kategori</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Aksesoris</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Event & Promo</a>
+              </li>
+            </ul>
+          </div>
+
+          <a class="navbar-brand" href="#">
+            <img style="margin-right: 2px;" src="c:\xampp\htdocs\Web Design\uas\img\radix-icons_heart-filled.png" height="30">
+          </a>
+          <a class="navbar-brand" href="#">
+            <img style="margin-right: 2px;" src="c:\xampp\htdocs\Web Design\uas\img\fa6-solid_cart-plus.png" height="30">
+          </a>
+          <a class="navbar-brand" href="#">
+            <img style="margin-right: 2px;" src="c:\xampp\htdocs\Web Design\uas\img\mdi_account.png" height="30">
+          </a>
+
+        </div>
+      </nav>
+
+    <p1 style="font-size: 15px;  margin-left: 135px; position: relative;">Home / </p1>
+    <p2 style="font-size: 15px;  margin-left: 2px; position: relative;">Kategori</p2>
+    <h1 style="font-size: 40px; margin-top: 55px; margin-left: 135px;"><b>Kategori</b></h1>
+  <div class="garis"></div>
+<div class="Body2">
+<div class="rectangle">
+      <div class="rectangle">
+      <h1 class="header-tebal">iPhone</h1>
+      <p1 class="paragraf-tipis">6 type | 35 item tersedia</p1>
+      <img class="img" src="c:\xampp\htdocs\Web Design\uas\img\iphone.png" alt="gambar" id="gambar-posisi"/>
+    </div>
+       
+    <div class="rectangle-2">
+      <div class="rectangle-2">
+      <h1 class="header-tebal-2">iPad</h1>
+      <p1 class="paragraf-tipis-2">8 type | 18 item tersedia</p1>
+      <img class="img" src="c:\xampp\htdocs\Web Design\uas\img\ipad.png" alt="gambar" id="gambar-posisi-2"/>
+    </div>
+
+    <div class="rectangle">
+        <div class="rectangle">
+        <h1 class="header-tebal-3">Mac</h1>
+        <p1 class="paragraf-tipis-3">16 type | 26 item tersedia</p1>
+        <img class="img" src="c:\xampp\htdocs\Web Design\uas\img\mac.png" alt="gambar" id="gambar-posisi-3"/>
+      </div>
+          
+      <div class="rectangle-2">
+        <div class="rectangle-2">
+        <h1 class="header-tebal-4">iWatch</h1>
+        <p1 class="paragraf-tipis-4">10 type | 23 item tersedia</p1>
+        <img class="img" src="c:\xampp\htdocs\Web Design\uas\img\iwatch.png" alt="gambar" id="gambar-posisi-4"/>
+      </div>
+
+    </div>
+    <div class="garansi" style="margin-top: 300px;">
+      <div class="d-flex align-items-center">
+          <img src="c:\xampp\htdocs\Web Design\uas\img\centang (1).png" style="height: 90px;" alt="">
+        <div class="ms-3">
+          <h2 style="font-weight: 800; font-size:27px; color:#fff">Garansi Resmi</h2>
+          <h2 style="font-weight: 200; font-size:24px; color:#fff">Produk Bergaransi resmi</h2>
+        </div>
+      </div>
+      <div class="d-flex align-items-center">
+          <img src="c:\xampp\htdocs\Web Design\uas\img\hedset.png" style="height: 90px;" alt="">
+        <div class="ms-3">
+          <h2 style="font-weight: 800; font-size:27px; color:#fff">Garansi Resmi</h2>
+          <h2 style="font-weight: 200; font-size:24px; color:#fff">Produk Bergaransi resmi</h2>
+        </div>
+      </div>
+      <div class="d-flex align-items-center">
+          <img src="c:\xampp\htdocs\Web Design\uas\img\kerdus.png" style="height: 90px;" alt="">
+        <div class="ms-3">
+          <h2 style="font-weight: 800; font-size:27px; color:#fff">Garansi Resmi</h2>
+          <h2 style="font-weight: 200; font-size:24px; color:#fff">Produk Bergaransi resmi</h2>
+        </div>
+      </div>
+      <div class="d-flex align-items-center">
+          <img src="c:\xampp\htdocs\Web Design\uas\img\keranjang.png" style="height: 90px;" alt="">
+        <div class="ms-3">
+          <h2 style="font-weight: 800; font-size:27px; color:#fff">Garansi Resmi</h2>
+          <h2 style="font-weight: 200; font-size:24px; color:#fff">Produk Bergaransi resmi</h2>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-white text-muted">
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    
+      </section>
+    
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <a href="#!">
+                <img style="height: 135px;" src="c:\xampp\htdocs\Web Design\uas\img\icoki.png" alt=""></a>
+              <p>ICoki adalah Official Apple Premium & Authorized Reseller di Indonesia.</p>
+              <p>Jika Anda membutuhkan bantuan atau ingin memberikan masukan, silahkan hubungi,
+                Email : customercare@iCoki.com
+                Telepon : (031) 5947280</p>
+              <p style="font-weight: 600;">ICoki Head Office</p>
+              <p>Politeknik Elektronika Negeri Surabaya
+                Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+                Laman Web : https://www.pens.ac.id/</p>
+            </div>
+    
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4" style="margin-top: 35px;">
+              <h6 class="text-uppercase fw-bold mb-4">
+                Informasi
+              </h6>
+              <p><a href="#!" class="text-decoration-none text-dark">Tentang Kami</a></p>
+              <p><a href="#!" class="text-decoration-none text-dark">Event & promo</a></p>
+              <p><a href="#!" class="text-decoration-none text-dark">FAQ</a></p>
+              <p><a href="#!" class="text-decoration-none text-dark">Lokasi Store</a></p>
+            </div>
+    
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" style="margin-top: 35px;">
+              <h6 class="text-uppercase fw-bold mb-4">
+                Layanan
+              </h6>
+              <p><a href="#!" class="text-decoration-none text-dark">Cara pemesanan</a></p>
+              <p><a href="#!" class="text-decoration-none text-dark">Cara Bayar</a></p>
+              <p><a href="#!" class="text-decoration-none text-dark">Info Pengiriman</a></p>
+              <p><a href="#!" class="text-decoration-none text-dark">Pembatalan Transaksi</a></p>
+            </div>
+    
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" style="margin-top: 35px;">
+              <h6 class="text-uppercase fw-bold mb-4">Kami Menerima</h6>
+                <div style="margin-top: -20px; margin-bottom:30px">
+                  <a href=""><img src="asset/img/kami menerima/linkaja.png" style="height: 25px;" alt=""></a>
+                  <a href=""><img src="asset/img/kami menerima/bca.png" style="height: 15px;" alt=""></a>
+                  <a href=""><img src="asset/img/kami menerima/bni.png" style="height: 15px;" alt=""></a>
+                  <a href=""><img src="asset/img/kami menerima/bri.png" style="height: 15px;" alt=""></a>
+                  <a href=""><img src="asset/img/kami menerima/cimbniaga.png" style="height: 15px;" alt=""></a>
+                  <a href=""><img src="asset/img/kami menerima/mandiri.png" style="height: 17px;" alt=""></a>
+                  <a href=""><img src="asset/img/kami menerima/maybank.png" style="height: 20px;" alt=""></a>
+                  <a href=""><img src="asset/img/kami menerima/bsi.png" style="height: 22px;" alt=""></a>
+                  <a href=""><img src="asset/img/kami menerima/visa.png" style="height: 15px;" alt=""></a>
+                  <a href=""><img src="asset/img/kami menerima/shopeepay.png" style="height: 20px;" alt=""></a>
+                  <a href=""><img src="asset/img/kami menerima/ovo.png" style="height: 13px;" alt=""></a>
+                  <a href=""><img src="asset/img/kami menerima/gopay.png" style="height: 15px;" alt=""></a>
+                  <a href=""><img src="asset/img/kami menerima/dana.png" style="height: 16px;" alt=""></a>
+                  <a href=""><img src="asset/img/kami menerima/kredivo.png" style="height: 17px;" alt=""></a>
+                  <a href=""><img src="asset/img/kami menerima/Indodana PayLater.png" style="height: 30px;" alt=""></a>
+                </div> 
+
+                <h6 class="text-uppercase fw-bold mb-4">Jasa Pengiriman</h6>
+                  <div style="margin-top: -15px; margin-bottom:40px">
+                    <a href=""><img src="asset/img/jasa pengiriman/jnt.png" style="height: 19px;" alt="">
+                    </a>
+                    <a href=""><img src="asset/img/jasa pengiriman/jne.png" style="height: 20px;" alt="">
+                    </a>
+                    <a href=""><img src="asset/img/jasa pengiriman/grab.png" style="height: 19px;" alt="">
+                    </a>
+                    <a href=""><img src="asset/img/jasa pengiriman/gojek.png" style="height: 17px;" alt="">
+                    </a>
+                  </div>
+              <h6 class="text-uppercase fw-bold mb-4">Temukan Kami</h6>
+                <div style="margin-top: -15px; margin-bottom:30px">
+                  <a href=""><img src="asset/img/temukan di/Instagram.png" style="height: 35px;" alt="">
+                  </a>
+                  <a href=""><img src="asset/img/temukan di/WhatsApp.png" style="height: 30px;" alt="">
+                  </a>
+                  <a href=""><img src="asset/img/temukan di/YouTube.png" style="height: 35px;" alt="">
+                  </a>
+                  <a href=""><img src="asset/img/temukan di/Facebook.png  " style="height: 35px;" alt="">
+                  </a>
+                </div>
+    
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: #1F6231; color:#fff">
+        <a class="text-reset fw-bold text-decoration-none" href="https://mdbootstrap.com/">COPYRIGHT @ 2023 ICOKI. ALL RIGHTS RESERVED.</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>+
